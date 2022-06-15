@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet');
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', 'Verdana';
+}
+
+.container {
+    max-width: none;
+    margin: 0px auto;
+    border: 0.5px solid aqua;
+    background-color: rgb(206, 207, 184);
+    max-height: none;
+    height:100vh;
+    min-height:auto;
+    overflow:hidden;
+    padding: 0px;
+    padding-left: 30px;
+}
+
+#header-name {
+    color:#b6483a
+}
+
+/* This is used for rotating the infinity image imported in Header.js*/
+.header > ul > a > img{
+    /* These are used to shift the position of the infinity image */
+    margin-left: 10px;
+    margin-top: 20px;
+    /* This is used specifically to rotate the Infinity image */
+    transform: scale(1.5) rotate(-30deg);
+}
+
+.header {
+    font-size: 24px;
+}
+
+.add-form {
+    margin-bottom:0px;
+    padding-left:40pc;
+    width:100%;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.userAddress {
+    font-weight: bold;
+    text-align: right;
+    font-style: italic;
+}
+
+.private-key-form {
+    width:90%;
+    font-size:15px;
+}
+
+.btn {
+    color: maroon;
+    cursor: pointer;
+    background-color:rgb(174, 223, 174);
+    font-size:15px;
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+
+#btnOut {
+    color: black;
+    cursor: pointer;
+    background-color: red;
+    font-size: 13px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    padding: 3px 6px;
+}
+
+.input-btn {
+    color: maroon;
+    cursor: pointer;
+    background-color:rgb(174, 223, 174);
+    font-size:15px;
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+
+#hiddenButtons > div {
+    display: inline;
+    list-style: none;
+    margin: 0px;
+    padding: 5px 2px;
+    color: black;
+}
+
+#transfer-btns > div {
+    display: inline;
+    list-style: none;
+    padding-right: 5px
+}
+
+.addEmail {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: italic;
+    width: 100%;
+    bottom: 0px;
+    text-align:center;
+}
+
+.addEmailForm {
+    width:100%
+}
+
+.footer-list.sub-footer-list > div {
+    list-style: none;
+}
+.sub-footer-list > div {
+    display: inline-block;
+    margin-right: 80px;
+    padding: 0px;
+}
+
+.image-prop {
+    width: 100%;
+    height: 100%;
+    margin-right:50px;
+    transform: scale(0.8);
+    margin-bottom: 50px;
+}
+
+.footer-list {
+    position:relative;
+    display:inline;
+    list-style: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.sub-footer-list {
+    margin-top: 0vh;
+}
+
+.footer-classe {
+    color: rgb(39, 11, 11);
+    height: 0px;
+    width: 100%;
+    bottom: 0px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.display-value {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.contact-class {
+    color: rgb(46, 36, 177);
+    height: 100%;
+    width: 100%;
+    margin-right: 50px;
+    bottom: 0px;
+    text-align: center;
+}
+
+.about-class {
+    color: rgb(46, 36, 177);
+    height: 100%;
+    width: 100%;
+    margin-right: 50px;
+    bottom: 0px;
+    text-align: center;
+}
